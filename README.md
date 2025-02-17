@@ -3,7 +3,7 @@ this is a complete sample Spring Boot project using Java that demonstrates basic
 
 we have three entities—  Doctor, Patient, and Appointment—
 
- with the following relationships:
+ **with the following relationships:**
 
 - Doctor: Has many Appointments.
 - Patient: Has many Appointments.
