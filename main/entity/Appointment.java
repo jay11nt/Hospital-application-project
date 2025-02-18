@@ -36,7 +36,8 @@ public class Appointment
         return id;
     }
     
-    public LocalDateTime getAppointmentDate() {
+    public LocalDateTime getAppointmentDate() 
+    {
         return appointmentDate;
     }    
     public void setAppointmentDate(LocalDateTime appointmentDate) {
