@@ -45,7 +45,8 @@ public class Doctor
     {
         return specialization;
     }    
-    public void setSpecialization(String specialization) {
+    public void setSpecialization(String specialization) 
+    {
         this.specialization = specialization;
     }
     
