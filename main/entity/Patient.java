@@ -4,7 +4,8 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-public class Patient {
+public class Patient 
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
