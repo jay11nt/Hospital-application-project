@@ -45,7 +45,8 @@ public class Appointment
         this.appointmentDate = appointmentDate;
     }
     
-    public Doctor getDoctor() {
+    public Doctor getDoctor() 
+    {
         return doctor;
     }    
     public void setDoctor(Doctor doctor) {
