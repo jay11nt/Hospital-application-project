@@ -40,7 +40,8 @@ public class Appointment
     {
         return appointmentDate;
     }    
-    public void setAppointmentDate(LocalDateTime appointmentDate) {
+    public void setAppointmentDate(LocalDateTime appointmentDate) 
+    {
         this.appointmentDate = appointmentDate;
     }
     
