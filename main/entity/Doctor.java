@@ -50,7 +50,8 @@ public class Doctor
         this.specialization = specialization;
     }
     
-    public List<Appointment> getAppointments() {
+    public List<Appointment> getAppointments() 
+    {
         return appointments;
     }
     public void setAppointments(List<Appointment> appointments) {
