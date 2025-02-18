@@ -31,7 +31,8 @@ public class Appointment
     }
 
     // Getters and setters
-    public Long getId() {
+    public Long getId() 
+    {
         return id;
     }
     
