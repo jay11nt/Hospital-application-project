@@ -21,14 +21,16 @@ public class Patient
     public Patient() {}
 
     // Parameterized constructor
-    public Patient(String name, Integer age, String email) {
+    public Patient(String name, Integer age, String email) 
+    {
         this.name = name;
         this.age = age;
         this.email = email;
     }
 
     // Getters and setters
-    public Long getId() {
+    public Long getId() 
+    {
         return id;
     }
     
