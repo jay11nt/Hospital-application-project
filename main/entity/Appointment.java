@@ -54,7 +54,8 @@ public class Appointment
         this.doctor = doctor;
     }
     
-    public Patient getPatient() {
+    public Patient getPatient() 
+    {
         return patient;
     }    
     public void setPatient(Patient patient) {
