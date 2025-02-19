@@ -18,11 +18,13 @@ public class DoctorService
         this.doctorRepository = doctorRepository;
     }
     
-    public List<Doctor> getAllDoctors(){
+    public List<Doctor> getAllDoctors()
+    {
         return doctorRepository.findAll();
     }
     
-    public Optional<Doctor> getDoctorById(Long id){
+    public Optional<Doctor> getDoctorById(Long id)
+    {
         return doctorRepository.findById(id);
     }
     
