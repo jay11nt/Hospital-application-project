@@ -8,11 +8,13 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class DoctorService {
+public class DoctorService 
+{
 
     private final DoctorRepository doctorRepository;
     
-    public DoctorService(DoctorRepository doctorRepository) {
+    public DoctorService(DoctorRepository doctorRepository) 
+    {
         this.doctorRepository = doctorRepository;
     }
     
