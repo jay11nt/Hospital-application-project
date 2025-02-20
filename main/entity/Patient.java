@@ -61,10 +61,12 @@ public class Patient
         this.email = email;
     }
     
-    public List<Appointment> getAppointments() {
+    public List<Appointment> getAppointments() 
+    {
         return appointments;
     }
-    public void setAppointments(List<Appointment> appointments) {
+    public void setAppointments(List<Appointment> appointments) 
+    {
         this.appointments = appointments;
     }
 }
