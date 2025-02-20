@@ -24,7 +24,8 @@ public class Appointment
     public Appointment() {}
 
     // Parameterized constructor
-    public Appointment(LocalDateTime appointmentDate, Doctor doctor, Patient patient) {
+    public Appointment(LocalDateTime appointmentDate, Doctor doctor, Patient patient) 
+    {
         this.appointmentDate = appointmentDate;
         this.doctor = doctor;
         this.patient = patient;
