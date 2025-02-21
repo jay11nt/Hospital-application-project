@@ -45,7 +45,8 @@ public class DoctorController
         try {
             Doctor updatedDoctor = doctorService.updateDoctor(id, doctor);
             return ResponseEntity.ok(updatedDoctor);
-        } catch (RuntimeException e) {
+            } 
+        catch (RuntimeException e) {
             return ResponseEntity.notFound().build();
         }
     }
