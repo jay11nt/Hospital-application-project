@@ -34,12 +34,14 @@ public class DoctorController
     }
     
     @PostMapping
-    public Doctor createDoctor(@RequestBody Doctor doctor){
+    public Doctor createDoctor(@RequestBody Doctor doctor)
+    {
         return doctorService.createDoctor(doctor);
     }
     
     @PutMapping("/{id}")
-    public ResponseEntity<Doctor> updateDoctor(@PathVariable Long id, @RequestBody Doctor doctor){
+    public ResponseEntity<Doctor> updateDoctor(@PathVariable Long id, @RequestBody Doctor doctor)
+    {
         try {
             Doctor updatedDoctor = doctorService.updateDoctor(id, doctor);
             return ResponseEntity.ok(updatedDoctor);
