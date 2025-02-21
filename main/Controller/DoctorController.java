@@ -14,7 +14,8 @@ public class DoctorController
 
     private final DoctorService doctorService;
     
-    public DoctorController(DoctorService doctorService){
+    public DoctorController(DoctorService doctorService)
+    {
         this.doctorService = doctorService;
     }
     
