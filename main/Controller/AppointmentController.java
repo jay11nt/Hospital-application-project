@@ -26,7 +26,8 @@ public class AppointmentController
     }
     
     @GetMapping("/{id}")
-    public ResponseEntity<Appointment> getAppointmentById(@PathVariable Long id){
+    public ResponseEntity<Appointment> getAppointmentById(@PathVariable Long id)
+    {
         return appointmentService.getAppointmentById(id)
             .map(ResponseEntity::ok)
             .orElse(ResponseEntity.notFound().build());
