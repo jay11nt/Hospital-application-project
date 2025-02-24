@@ -39,11 +39,13 @@ public class PatientController
     }
     
     @PutMapping("/{id}")
-    public ResponseEntity<Patient> updatePatient(@PathVariable Long id, @RequestBody Patient patient){
+    public ResponseEntity<Patient> updatePatient(@PathVariable Long id, @RequestBody Patient patient)
+    {
         try {
             Patient updatedPatient = patientService.updatePatient(id, patient);
             return ResponseEntity.ok(updatedPatient);
-        } catch (RuntimeException e){
+        } catch (RuntimeException e)
+            {
             return ResponseEntity.notFound().build();
         }
     }
