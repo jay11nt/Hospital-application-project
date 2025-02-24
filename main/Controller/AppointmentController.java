@@ -63,7 +63,8 @@ public class AppointmentController
         try {
             Appointment updatedAppointment = appointmentService.updateAppointment(id, appointment, doctorId, patientId);
             return ResponseEntity.ok(updatedAppointment);
-        } catch (RuntimeException e) {
+            } 
+        catch (RuntimeException e) {
             return ResponseEntity.notFound().build();
         }
     }
