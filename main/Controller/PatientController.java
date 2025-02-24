@@ -44,10 +44,11 @@ public class PatientController
         try {
             Patient updatedPatient = patientService.updatePatient(id, patient);
             return ResponseEntity.ok(updatedPatient);
-        } catch (RuntimeException e)
+            } 
+        catch (RuntimeException e)
             {
             return ResponseEntity.notFound().build();
-        }
+            }
     }
     
     @DeleteMapping("/{id}")
