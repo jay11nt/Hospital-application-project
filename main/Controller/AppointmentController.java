@@ -10,11 +10,13 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/appointments")
-public class AppointmentController {
+public class AppointmentController 
+{
 
     private final AppointmentService appointmentService;
     
-    public AppointmentController(AppointmentService appointmentService){
+    public AppointmentController(AppointmentService appointmentService)
+    {
         this.appointmentService = appointmentService;
     }
     
