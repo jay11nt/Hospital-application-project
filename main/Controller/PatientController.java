@@ -33,7 +33,8 @@ public class PatientController
     }
     
     @PostMapping
-    public Patient createPatient(@RequestBody Patient patient){
+    public Patient createPatient(@RequestBody Patient patient)
+    {
         return patientService.createPatient(patient);
     }
     
