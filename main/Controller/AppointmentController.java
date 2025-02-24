@@ -47,7 +47,8 @@ public class AppointmentController
     public Appointment createAppointment(
             @RequestParam Long doctorId,
             @RequestParam Long patientId,
-            @RequestBody Appointment appointment){
+            @RequestBody Appointment appointment)
+    {
         return appointmentService.createAppointment(appointment, doctorId, patientId);
     }
     
