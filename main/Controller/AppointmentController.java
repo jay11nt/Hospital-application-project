@@ -58,7 +58,8 @@ public class AppointmentController
             @PathVariable Long id,
             @RequestParam Long doctorId,
             @RequestParam Long patientId,
-            @RequestBody Appointment appointment){
+            @RequestBody Appointment appointment)
+    {
         try {
             Appointment updatedAppointment = appointmentService.updateAppointment(id, appointment, doctorId, patientId);
             return ResponseEntity.ok(updatedAppointment);
