@@ -74,7 +74,7 @@ Body (JSON):
 Body (JSON):
 
         {
-          "appointmentDate": "2025-02-17T10:30:00"
+          "appointmentDate": "2025-02-17 T10:30:00"
         }
         
   **Get All Appointments:**
