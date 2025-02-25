@@ -58,12 +58,21 @@ Body (JSON):
 Body (JSON):
 
         {
-          "name": "Jane Smith",
+          "name": "hitesh soni",
           "age": 29,
-          "email": "jane.smith@example.com"
+          "email": "hiteshsoni@gmail.com"
         }
 
   **Get All Patients:**
   `GET http://localhost:8080/api/patients`
 
 - **Appointment APIs-**
+  
+**Create an Appointment:**
+`POST http://localhost:8080/api/appointments?doctorId=1&patientId=1`
+
+Body (JSON):
+
+        {
+          "appointmentDate": "2025-02-17T10:30:00"
+        }
