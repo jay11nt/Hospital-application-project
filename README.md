@@ -34,7 +34,7 @@
                            └── AppointmentController.java
 
 ### Testing with Postman
-- **Doctor APIs**
+- **Doctor APIs-**
 
 **Create a Doctor:**
 `POST http://localhost:8080/api/doctors`
@@ -50,7 +50,7 @@ Body (JSON):
 `GET http://localhost:8080/api/doctors`
 
 
-- **Patient APIs**
+- **Patient APIs-**
 
 **Create a Patient:**
 `POST http://localhost:8080/api/patients`
