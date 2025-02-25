@@ -32,3 +32,10 @@
                            ├── DoctorController.java
                            ├── PatientController.java
                            └── AppointmentController.java
+
+- Testing with Postman
+- Doctor APIs
+
+- Create a Doctor:
+`POST http://localhost:8080/api/doctors`
+Body (JSON):
