@@ -34,8 +34,29 @@
                            └── AppointmentController.java
 
 ### Testing with Postman
-- Doctor APIs
+- **Doctor APIs**
 
-- Create a Doctor:
+**Create a Doctor:**
 `POST http://localhost:8080/api/doctors`
+
+Body (JSON): 
+
+        {
+          "name": "Dr. ROY",
+          "specialization": "Cardiology"
+        }
+
+**Get All Doctors:**
+`GET http://localhost:8080/api/doctors`
+
+- **Patient APIs**
+
+**Create a Patient:**
+`POST http://localhost:8080/api/patients`
+
 Body (JSON):
+        {
+          "name": "Jane Smith",
+          "age": 29,
+          "email": "jane.smith@example.com"
+        }
