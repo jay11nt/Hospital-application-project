@@ -63,5 +63,7 @@ Body (JSON):
           "email": "jane.smith@example.com"
         }
 
-**Get All Patients:**
-`GET http://localhost:8080/api/patients`
+  **Get All Patients:**
+  `GET http://localhost:8080/api/patients`
+
+- **Appointment APIs-**
