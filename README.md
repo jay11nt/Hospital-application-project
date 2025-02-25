@@ -76,3 +76,6 @@ Body (JSON):
         {
           "appointmentDate": "2025-02-17T10:30:00"
         }
+        
+  **Get All Appointments:**
+`GET http://localhost:8080/api/appointments`
