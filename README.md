@@ -36,8 +36,8 @@
 ### Testing with Postman
 - **Doctor APIs-**
 
-**Create a Doctor:**
-`POST http://localhost:8080/api/doctors`
+  **Create a Doctor:**
+  `POST http://localhost:8080/api/doctors`
 
 Body (JSON): 
 
@@ -46,8 +46,8 @@ Body (JSON):
           "specialization": "Cardiology"
         }
 
-**Get All Doctors:**
-`GET http://localhost:8080/api/doctors`
+  **Get All Doctors:**
+  `GET http://localhost:8080/api/doctors`
 
 
 - **Patient APIs-**
