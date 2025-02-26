@@ -71,6 +71,7 @@ Body (JSON):
 **Create an Appointment:**
 `POST http://localhost:8080/api/appointments?doctorId=1&patientId=1`
 
+
 Body (JSON):
 
         {
