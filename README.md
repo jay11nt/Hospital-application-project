@@ -2,7 +2,7 @@
 
 - This is a complete sample Spring Boot project using Java that demonstrates basic OOP concepts, JPA entity relationships etc.
 
-## Features
+ ## Features
 
 - **CRUD APIs** for Doctors, Patients, and Appointments.
 - **JPA Relationships**:
