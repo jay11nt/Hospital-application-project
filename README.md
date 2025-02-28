@@ -52,6 +52,8 @@
 
 **🚀 API Endpoints-**
 
+### Testing with Postman :-
+
 🔹 Doctor API-
 
 | HTTP Method| Endpoint           | Description         |
@@ -62,9 +64,6 @@
 | PUT        | /api/doctors/{id}  | Update doctor       |
 | DELETE     | /api/doctors/{id}  | Delete doctor       |
 
-  
-### Testing with Postman :-
-- **Doctor APIs-**
 
   **Create a Doctor:**
   `POST http://localhost:8080/api/doctors`
