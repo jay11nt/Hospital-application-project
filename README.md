@@ -79,7 +79,21 @@ Body (JSON):
   `GET http://localhost:8080/api/doctors`
 
 
-- **Patient APIs-**
+🔹 Patient API -
+
+| HTTP Method| Endpoint             | Description         |
+|------------|----------------------|---------------------|
+| GET        | /api/doctors         | Get all doctors     |
+| GET        | /api/doctors/{id}    | Get doctor by ID    |
+| POST       | /api/doctors         | Create new doctor   |
+| PUT        | /api/doctors/{id}    | Update doctor       |
+| DELETE     | /api/doctors/{id}    | Delete doctor       |
+| GET        | /api/patients        | Get all patients    |
+| GET        | /api/patients/{id}   | Get patient by ID   |
+| POST       | /api/patients        | Create new patient  |
+| PUT        | /api/patients/{id}   | Update patient      |
+| DELETE     | /api/patients/{id}   | Delete patient      |
+
 
 **Create a Patient:**
 `POST http://localhost:8080/api/patients`
