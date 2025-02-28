@@ -42,6 +42,15 @@
                            ├── PatientController.java
                            └── AppointmentController.java
 
+## Technologies Used
+
+- Java 8+
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+
+  
 ### Testing with Postman :-
 - **Doctor APIs-**
 
