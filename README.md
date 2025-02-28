@@ -50,6 +50,14 @@
 - H2 Database
 - Maven
 
+**🚀 API Endpoints-**
+🔹 Doctor API
+        HTTP Method	Endpoint	Description
+        GET	/api/doctors	Get all doctors
+        GET	/api/doctors/{id}	Get doctor by ID
+        POST	/api/doctors	Create new doctor
+        PUT	/api/doctors/{id}	Update doctor
+        DELETE	/api/doctors/{id}	Delete doctor
   
 ### Testing with Postman :-
 - **Doctor APIs-**
