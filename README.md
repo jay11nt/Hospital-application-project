@@ -2,6 +2,15 @@
 
 - This is a complete sample Spring Boot project using Java that demonstrates basic OOP concepts, JPA entity relationships etc.
 
+## Features
+
+- **CRUD APIs** for Doctors, Patients, and Appointments.
+- **JPA Relationships**:
+  - One-to-Many: A Doctor can have multiple Appointments.
+  - One-to-Many: A Patient can have multiple Appointments.
+  - Many-to-One: Each Appointment is linked to a single Doctor and a single Patient.
+- Uses an **in-memory H2 database** for quick testing.
+- Easy testing with **Postman**.
   we have three entities—  **Doctor, Patient, and Appointment.**
 
  **with the following relationships:**
