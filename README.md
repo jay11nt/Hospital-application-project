@@ -109,7 +109,27 @@ Body (JSON):
   **Get All Patients:**
   `GET http://localhost:8080/api/patients`
 
-- **Appointment APIs-**
+
+🔹 Appointment API
+
+| HTTP Method| Endpoint                | Description           |
+|------------|-------------------------|-----------------------|
+| GET        | /api/doctors            | Get all doctors       |
+| GET        | /api/doctors/{id}       | Get doctor by ID      |
+| POST       | /api/doctors            | Create new doctor     |
+| PUT        | /api/doctors/{id}       | Update doctor         |
+| DELETE     | /api/doctors/{id}       | Delete doctor         |
+| GET        | /api/patients           | Get all patients      |
+| GET        | /api/patients/{id}      | Get patient by ID     |
+| POST       | /api/patients           | Create new patient    |
+| PUT        | /api/patients/{id}      | Update patient        |
+| DELETE     | /api/patients/{id}      | Delete patient        |
+| GET        | /api/appointments       | Get all appointments  |
+| GET        | /api/appointments/{id}  | Get appointment by ID |
+| POST       | /api/appointments       | Create appointment    |
+| PUT        | /api/appointments/{id}  | Update appointment    |
+| DELETE     | /api/appointments/{id}  | Delete appointment    |
+
   
 **Create an Appointment:**
 `POST http://localhost:8080/api/appointments?doctorId=1&patientId=1`
