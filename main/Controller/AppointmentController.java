@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("/api/appointments")
 public class AppointmentController 
 {
-
     private final AppointmentService appointmentService;
     
     public AppointmentController(AppointmentService appointmentService)
