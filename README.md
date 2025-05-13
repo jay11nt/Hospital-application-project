@@ -42,7 +42,7 @@
                            ├── PatientController.java
                            └── AppointmentController.java
 
-## Technologies Used
+## Technologies Used -
 
 - Java 8+
 - Spring Boot
