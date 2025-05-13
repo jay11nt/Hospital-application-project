@@ -116,7 +116,7 @@ Body (JSON):
   `GET http://localhost:8080/api/patients`
 
 
-🔹 Appointment API
+🔹 Appointment API -
 
 | HTTP Method| Endpoint                | Description           |
 |------------|-------------------------|-----------------------|
